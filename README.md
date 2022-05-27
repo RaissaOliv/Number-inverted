@@ -1,6 +1,10 @@
-# Number-inverted
-A program that checks if a number is the same after being inverted
+# número invertido
+Um programa que checa se um número, ao ser reordernado ao contrário, continua sendo o mesmo valor
 
 **********
-Number inverted is a code made with javascript/html! It's concept is pretty simple: The user puts a random number on the input and the program checks if the number stays the same after inverting their positions (for example: 2001 inverted is 1002. Therefore, it's not the same. On the other side, 2002 after being inverted is still 2002).
+número invertido é um programa básico feito com html e js! Seu conceito é bem simples: o usuário bota um número a partir de um input, o programa inverte o número e se o número espelhado ainda continuar sendo o mesmo, ele retorna uma mensagem dizendo que o valor continua igual. Caso contrário, o programa dirá que, ao ser invertido, o número se torna um valor diferente.
+
+Por exemplo: Se 2002 for reescrito ao contrário, o número continuará sendo 2002. Porém, se 1300 for escrito ao contrário, ele se tornará 0031, um valor completamente diferente.
+
+O código foi feito com a utilização de for loop e o comando .length para mapear e reescrever o número de forma invertida, finalizando com if else para checar a igualdade entre o número normal e o invertido.
 **********
